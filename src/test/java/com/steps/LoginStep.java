@@ -32,6 +32,7 @@ public class LoginStep {
 	public void user_enters_username(String username) {
 	  WebElement usernameField = driver.findElement(By.xpath("//input[@name='username']"));
 	  usernameField.sendKeys(username);
+	  System.out.println("Sara");
 	}
 
 	@When("User enters password {string}")
